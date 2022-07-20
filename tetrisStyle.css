@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    flex-direction: column;align-items: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 53%);
+}
+h1{   
+    font-size: 100px;
+    margin-left: -75px;
+}
+.name{
+    margin-left: -75px;
+    border-radius: 5px;
+    height: 1.5rem;
+}
+
+h2{
+    margin-left: -65px; 
+}
+
+h3{
+    color: black;
+    margin-left: -75px; 
+}
+#start-button{
+    margin-left: -75px; 
+    font-size: 15px;
+    border-radius: 5px; 
+    background-color: #fdbb2d;
+}
+.container{
+    display: flex;
+
+}
+
+.grid {
+    border-radius: 5px;  
+    margin-top: 15px;   
+    border-color: black;
+    border-width: 3px;  
+    border-style: solid; 
+
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(97,194,195);
+    background: linear-gradient(0deg, rgba(97,194,195,1) 7%, rgba(253,187,45,1) 68%);  
+}
+.grid div{      
+     
+    width: 20px;
+    height: 20px;   
+}
+ .tetromino {   
+     box-shadow:1px 1px 1px 1px black inset;
+     border-radius: 3px;          
+     background-color: blue ;
+ }
+
+ .mini-grid { 
+    border-radius: 5px; 
+    border-color: black;
+    border-width: 3px;  
+    border-style: solid;
+
+    margin-left: 15px;  
+    margin-top: 50px;  
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(97,194,195);
+    background: linear-gradient(0deg, rgba(97,194,195,0.3) 7%, rgba(253,187,45,0.3) 68%);
+}
+
+.mini-grid div{     
+     
+    width: 20px;
+    height: 20px;   
+}
